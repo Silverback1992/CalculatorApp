@@ -21,6 +21,11 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Label x:Name="equationLabel"
+               HorizontalAlignment="Right"
+               FontSize="30"
+               FontFamily="Candara Light"
+               Grid.ColumnSpan="4"/>
         <Label x:Name="resultLabel" 
                Content="0"
                HorizontalAlignment="Right"
@@ -45,6 +50,7 @@
                 Grid.Row="1"
                 Grid.Column="2"/>
         <Button x:Name="divideButton" 
+                Click="operationButton_Click"
                 Content="/"
                 Margin="5"
                 Grid.Row="1"
@@ -64,6 +70,7 @@
                 Grid.Row="2"
                 Grid.Column="2"/>
         <Button x:Name="multiplyButton" 
+                Click="operationButton_Click"
                 Content="*"
                 Margin="5"
                 Grid.Row="2"
@@ -83,6 +90,7 @@
                 Grid.Row="3"
                 Grid.Column="2"/>
         <Button x:Name="minusButton" 
+                Click="operationButton_Click"
                 Content="-"
                 Margin="5"
                 Grid.Row="3"
@@ -102,6 +110,7 @@
                 Grid.Row="4"
                 Grid.Column="2"/>
         <Button x:Name="plusButton" 
+                Click="operationButton_Click"
                 Content="+"
                 Margin="5"
                 Grid.Row="4"
@@ -112,6 +121,7 @@
                 Grid.Row="5"
                 Grid.ColumnSpan="2"/>
         <Button x:Name="decimalButton" 
+                Click="decimalButton_Click"
                 Content="."
                 Margin="5"
                 Grid.Row="5"
