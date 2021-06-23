@@ -20,3 +20,4 @@ C:\Users\alin2\source\repos\CalculatorApp\Calculator\obj\Debug\net5.0-windows\Ca
 C:\Users\alin2\source\repos\CalculatorApp\Calculator\obj\Debug\net5.0-windows\ref\Calculator.dll
 C:\Users\alin2\source\repos\CalculatorApp\Calculator\obj\Debug\net5.0-windows\Calculator.pdb
 C:\Users\alin2\source\repos\CalculatorApp\Calculator\obj\Debug\net5.0-windows\Calculator.genruntimeconfig.cache
+C:\Users\alin2\source\repos\CalculatorApp\Calculator\obj\Debug\net5.0-windows\App.baml

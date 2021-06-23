@@ -4,6 +4,18 @@
              xmlns:local="clr-namespace:Calculator"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="25" />
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="numberAndDecimalButtonStyle" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Background" Value="#333333" />
+        </Style>
+
+        <Style TargetType="Button" x:Key="operatorButtonStyle" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Background" Value="Green"/>
+        </Style>
     </Application.Resources>
 </Application>
